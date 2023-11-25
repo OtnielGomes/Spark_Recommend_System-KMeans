@@ -1,16 +1,8 @@
 # My learning with PySpark music recommendation system
 
-Hello, in this project we will have some ways of processing textual data, applying NLP techniques (Natural Language Processing, or "Natural Language Processing" in Portuguese) together with the construction of a Machine Learning model ("automatic learning" in Portuguese), to classify comments.
+Hello, the challenge of this project is to improve the existing music recommendation system, but which only takes into account the genres of the songs. we will use clustering and dimensionality reduction techniques. To do this, we will use some PySpark modules, such as SQL, to manipulate the data, and Machine Learning, which will allow the use of various tools aimed at clustering solutions.
 
-Together, we will build a project containing testimonials about films, collected from IMDb and classified into positive and negative. We will apply NPL techniques in order to make these comments more understandable for the computer.
-
-We will start by cleaning and removing characters that will not be part of the analysis. Next, we will separate the testimonials into several parts, applying the concept of tokenization, and remove words that do not add to our analysis.
-
-Tokenization is the process of dividing a sentence into individual parts or tokens, most often single words.
-
-Once this is done, we will apply the concept of bag of words, which counts the terms in our vocabulary. Finally, we will fine-tune a decision tree that will create a set of rules that will help us classify the comments.
-
-The entire process will be done with PySpark, so we will rely on Spark's memory processing using the Python language.
+As a result of our course project it will be really cool, we will create a function that, having a reference song, will return a playlist. This playlist will be presented with album covers and song names.
 
 ## 🚀 Starting
 
